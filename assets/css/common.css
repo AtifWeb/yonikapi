@@ -13,11 +13,54 @@ select,
 input {
   font-family: "Open Sans", sans-serif;
 }
+a {
+  text-decoration: none;
+}
 
+ul,
+nav {
+  list-style: none;
+}
 .common_width {
   width: 1300px;
   margin: 0rem auto;
 }
 
 header {
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+header .header_content {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: space-between;
+}
+header .header_content > a h1 {
+  color: #000;
+}
+header .header_content > a > img {
+  width: 220px;
+}
+header .header_content nav,
+header .header_content nav a {
+  display: flex;
+  align-items: center;
+}
+header .header_content nav a {
+  font-weight: 500;
+
+  padding: 0 14px;
+  line-height: 48px;
+  font-size: 14px;
+  color: #000;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.3s ease all;
+  -webkit-backface-visibility: hidden;
+}
+header .header_content nav a img {
+  margin-right: 5px;
+}
+header .header_content nav a:hover {
+  transform: scale(1.1);
 }
