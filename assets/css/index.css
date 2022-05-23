@@ -64,6 +64,12 @@
   justify-content: center;
   text-decoration: none;
 }
+.right_side > * + * {
+  margin-top: 2rem;
+}
+.right_side .presentation img {
+  width: 100%;
+}
 .right_side .icons_wrapper {
   display: flex;
   align-items: center;
@@ -83,7 +89,7 @@
 .right_side .icons_wrapper > * + * {
   margin-left: 10px;
 }
-.right_side > * {
+.right_side > .presentation {
   position: sticky;
   top: 10px;
 }

@@ -1,0 +1,17 @@
+main {
+  margin-top: 5rem !important;
+  margin-bottom: 5rem !important;
+}
+main iframe {
+  width: 100%;
+  height: 600px;
+}
+.videos_area {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  margin-bottom: 6rem;
+}
+.videos_area iframe {
+  width: 100%;
+}
