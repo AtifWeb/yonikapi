@@ -50,7 +50,7 @@
 
 .body_content_area {
   display: grid;
-  grid-template-columns: 1fr 450px;
+  grid-template-columns: 1fr 340px;
   grid-gap: 2rem;
 }
 .video_cycle .button_wrapper a {
