@@ -2,19 +2,12 @@ import { videos } from "./videos/ncaap_videos.js";
 
 let videos_area = document.querySelector(".videos_area");
 
-let VideoTemplate = (src) => {
+let VideoTemplate = (list) => {
   return `
-    <div class="video_wrapper">
-    <iframe
-      width="560"
-      height="315"
-      src=${src}
-      title="YouTube video player"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
-    ></iframe>
-  </div>
+  <a href="./view.html" id="${list.id}" class="image_wrapper">
+  <img src=${list.poster} alt="" />
+  <h1>${list.title} <span>(220+ likes this video)</span></h1>
+</a>
     `;
 };
 

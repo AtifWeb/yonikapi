@@ -251,7 +251,7 @@ export const videos = [
   },
 
   {
-    title: "Ncaab",
+    title: "Ncaap",
     link: "#",
     list: [
       {

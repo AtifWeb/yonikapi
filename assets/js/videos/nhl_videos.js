@@ -1,64 +1,62 @@
 export const videos = {
-  title: "Recent View",
+  title: "NHL",
   link: "#",
   list: [
-    "https://www.youtube.com/embed/Q5TSjrkQDnw",
-    "https://www.youtube.com/embed/6vFro4NHCnc",
-    "https://www.youtube.com/embed/t0aPLB52RgI",
-    "https://www.youtube.com/embed/P5-eDqJCnMY",
-
-    "https://www.youtube.com/embed/o-51AE7UM0w",
-    "https://www.youtube.com/embed/-499RryJXSc",
-    "https://www.youtube.com/embed/RFFJCkRZG_c",
-
-    "https://www.youtube.com/embed/0pksoniPYD4",
+    {
+      id: "NHL1",
+      poster: "https://i.ytimg.com/vi_webp/Q5TSjrkQDnw/maxresdefault.webp",
+      title: "NHL Plays Worth Seeing Again 2022",
+      videos: ["https://www.youtube.com/embed/yAyuxHAkByw"],
+      desc: "",
+    },
+    {
+      id: "NHL2",
+      poster: "https://i.ytimg.com/vi/6vFro4NHCnc/hqdefault.jpg",
+      title: "Does The NHL Have The Best Mascots ",
+      videos: ["https://www.youtube.com/embed/8FSrbPXGUpk"],
+      desc: "",
+    },
+    {
+      id: "NHL3",
+      poster: "https://i.ytimg.com/vi/6vFro4NHCnc/hqdefault.jpg",
+      title: "Does The NHL Have The Best Mascots ",
+      videos: ["https://www.youtube.com/embed/9jfJIXBOu2E"],
+      desc: "",
+    },
+    {
+      id: "NHL4",
+      poster: "https://i.ytimg.com/vi_webp/Q5TSjrkQDnw/maxresdefault.webp",
+      title: "NHL Plays Worth Seeing Again 2022",
+      videos: ["https://www.youtube.com/embed/8Vk72DzBljw"],
+      desc: "",
+    },
+    {
+      id: "NHL5",
+      poster: "https://i.ytimg.com/vi_webp/Q5TSjrkQDnw/maxresdefault.webp",
+      title: "NHL Plays Worth Seeing Again 2022",
+      videos: ["https://www.youtube.com/embed/yAyuxHAkByw"],
+      desc: "",
+    },
+    {
+      id: "NHL6",
+      poster: "https://i.ytimg.com/vi/6vFro4NHCnc/hqdefault.jpg",
+      title: "Does The NHL Have The Best Mascots ",
+      videos: ["https://www.youtube.com/embed/8FSrbPXGUpk"],
+      desc: "",
+    },
+    {
+      id: "NHL7",
+      poster: "https://i.ytimg.com/vi/6vFro4NHCnc/hqdefault.jpg",
+      title: "Does The NHL Have The Best Mascots ",
+      videos: ["https://www.youtube.com/embed/9jfJIXBOu2E"],
+      desc: "",
+    },
+    {
+      id: "NHL8",
+      poster: "https://i.ytimg.com/vi_webp/Q5TSjrkQDnw/maxresdefault.webp",
+      title: "NHL Plays Worth Seeing Again 2022",
+      videos: ["https://www.youtube.com/embed/8Vk72DzBljw"],
+      desc: "",
+    },
   ],
 };
-// https://i.ytimg.com/vi/7pGFn6XkOOQ/hqdefault.jpg
-{
-  /* <div class="video_wrapper">
-<iframe
-  width="560"
-  height="315"
-  src="https://www.youtube.com/embed/1aumBX3_AyA"
-  title="YouTube video player"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen
-></iframe>
-</div>
-<div class="video_wrapper">
-<iframe
-  width="560"
-  height="315"
-  src="https://www.youtube.com/embed/7pGFn6XkOOQ"
-  title="YouTube video player"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen
-></iframe>
-</div>
-<div class="video_wrapper">
-<iframe
-  width="560"
-  height="315"
-  src="https://www.youtube.com/embed/-mIIzGgYsG0"
-  title="YouTube video player"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen
-></iframe>
-</div>
-<div class="video_wrapper">
-<iframe
-  width="560"
-  height="315"
-  src="https://www.youtube.com/embed/OGu9WqA1eSk"
-  title="YouTube video player"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen
-></iframe>
-</div>
-</div> */
-}
