@@ -5,10 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="./assets/css/common.css" />
-    <link rel="stylesheet" href="./assets/css/childrens.css" />
+    <!-- font awessome -->
 
-    <title>Earuleague</title>
+    <script
+      src="https://kit.fontawesome.com/2eb177939b.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="./assets/css/common.css" />
+
+    <link rel="stylesheet" href="./assets/css/view.css" />
+    <title>View</title>
   </head>
   <body>
     <header>
@@ -126,24 +133,43 @@
       </div>
     </header>
 
-    <!-- first main video -->
-    <main class="common_width">
-      <div class="video_wrapper">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/6pfmdWpBNUU"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-      </div>
-    </main>
+    <section class="content_area common_width">
+      <div class="left_area">
+        <h1 class="heading">
+          <span></span>
 
-    <section class="videos_area common_width"></section>
+          <div class="rating_wrapper">
+            <span class="like">
+              <i class="fa-solid fa-thumbs-down"></i>
+            </span>
+
+            <p>(220)</p>
+            <span class="like">
+              <i class="fa-solid fa-thumbs-up"></i>
+            </span>
+          </div>
+        </h1>
+
+        <p class="desc"></p>
+
+        <div class="video_area"></div>
+      </div>
+      <div class="right_side">
+        <div class="presentation">
+          <img
+            src="https://cdn.pixabay.com/photo/2015/06/01/09/00/adwords-793034_1280.jpg"
+            alt=""
+          />
+          <img
+            src="https://cdn.pixabay.com/photo/2019/06/25/09/35/google-4297824__480.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <script src="./assets/js/view.js"></script>
 
     <script src="./assets/js/common.js"></script>
-    <script src="./assets/js/earuleague.js" type="module"></script>
   </body>
 </html>

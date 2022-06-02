@@ -9,7 +9,7 @@ let HTMLTEMPLATE = (heading, list, link) => {
 </div>
 
 <div class="video_container">
-  <div class="video_wrapper">
+  <a href="./view.html?id=${list[0]}" class="video_wrapper">
     <iframe
       width="560"
       height="315"
@@ -19,8 +19,8 @@ let HTMLTEMPLATE = (heading, list, link) => {
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen
     ></iframe>
-  </div>
-  <div class="video_wrapper">
+  </a>
+  <a href="./view.html?id=${list[1]}" class="video_wrapper">
     <iframe
       width="560"
       height="315"
@@ -30,9 +30,9 @@ let HTMLTEMPLATE = (heading, list, link) => {
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen
     ></iframe>
-  </div>
+  </a>
 
-  <div class="video_wrapper">
+  <a href="./view.html?id=${list[2]}" class="video_wrapper">
     <iframe
       width="560"
       height="315"
@@ -42,8 +42,8 @@ let HTMLTEMPLATE = (heading, list, link) => {
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen
     ></iframe>
-  </div>
-  <div class="video_wrapper">
+  </a>
+  <a href="./view.html?id=${list[3]}" class="video_wrapper">
     <iframe
       width="560"
       height="315"
@@ -53,7 +53,7 @@ let HTMLTEMPLATE = (heading, list, link) => {
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen
     ></iframe>
-  </div>
+  </a>
 </div>
 
 <div class="button_wrapper">

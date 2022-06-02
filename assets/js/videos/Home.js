@@ -119,4 +119,26 @@ export const videos = [
       "https://www.youtube.com/embed/OoOd09NtwsU",
     ],
   },
+
+  {
+    title: "Champions League",
+    link: "#",
+    list: [
+      "https://www.youtube.com/embed/n5hqFG6taoY",
+      "https://www.youtube.com/embed/IK6ky_jbBqI",
+      "https://www.youtube.com/embed/XCyih2XpqCY",
+      "https://www.youtube.com/embed/MBO0AiAD0DQ",
+    ],
+  },
+
+  {
+    title: "Others",
+    link: "#",
+    list: [
+      "https://www.youtube.com/embed/TcOLV7HnWJ4",
+      "https://www.youtube.com/embed/axAv6JArTME",
+      "https://www.youtube.com/embed/IJ7CwC1Rhaw",
+      "https://www.youtube.com/embed/065BzQXZM5k",
+    ],
+  },
 ];
