@@ -1,16 +1,64 @@
 export const videos = {
-  title: "Recent View",
+  title: "Nba",
   link: "#",
   list: [
-    "https://www.youtube.com/embed/ZQAhtdDkLnE",
-    "https://www.youtube.com/embed/lcA0TcC7Hqs",
-    "https://www.youtube.com/embed/zJzEJ23GKQU",
-    "https://www.youtube.com/embed/MT_UAMB8RLQ",
-
-    "https://www.youtube.com/embed/b-FaU4TbaeY",
-    "https://www.youtube.com/embed/LbRWyOKvOAg",
-    "https://www.youtube.com/embed/_fob9Z4Uyes",
-
-    "https://www.youtube.com/embed/QcKqzY_gHiw",
+    {
+      id: "Nba1",
+      poster: "https://i.ytimg.com/vi/7pGFn6XkOOQ/hqdefault.jpg",
+      title:
+        "Boston Celtics vs Miami Heat Full Game 2 Highlights | 2021-22 NBA Playoffs",
+      videos: ["https://www.youtube.com/embed/yAyuxHAkByw"],
+      desc: "",
+    },
+    {
+      id: "Nba2",
+      poster: "https://i.ytimg.com/vi/lcA0TcC7Hqs/hqdefault.jpg",
+      title: "Boston Celtics vs Miami Heat Game 2",
+      videos: ["https://www.youtube.com/embed/8FSrbPXGUpk"],
+      desc: "",
+    },
+    {
+      id: "Nba3",
+      poster: "https://i.ytimg.com/vi/zJzEJ23GKQU/hqdefault.jpg",
+      title: "1Marcus Smart Talks Game 2",
+      videos: ["https://www.youtube.com/embed/9jfJIXBOu2E"],
+      desc: "",
+    },
+    {
+      id: "Nba4",
+      poster: "https://i.ytimg.com/vi/MT_UAMB8RLQ/hqdefault.jpg",
+      title: "Jimmy Butler Postgame Interview ",
+      videos: ["https://www.youtube.com/embed/8Vk72DzBljw"],
+      desc: "",
+    },
+    {
+      id: "Nba5",
+      poster: "https://i.ytimg.com/vi/7pGFn6XkOOQ/hqdefault.jpg",
+      title:
+        "Boston Celtics vs Miami Heat Full Game 2 Highlights | 2021-22 NBA Playoffs",
+      videos: ["https://www.youtube.com/embed/yAyuxHAkByw"],
+      desc: "",
+    },
+    {
+      id: "Nba6",
+      poster: "https://i.ytimg.com/vi/lcA0TcC7Hqs/hqdefault.jpg",
+      title: "Boston Celtics vs Miami Heat Game 2",
+      videos: ["https://www.youtube.com/embed/8FSrbPXGUpk"],
+      desc: "",
+    },
+    {
+      id: "Nba7",
+      poster: "https://i.ytimg.com/vi/zJzEJ23GKQU/hqdefault.jpg",
+      title: "1Marcus Smart Talks Game 2",
+      videos: ["https://www.youtube.com/embed/9jfJIXBOu2E"],
+      desc: "",
+    },
+    {
+      id: "Nba8",
+      poster: "https://i.ytimg.com/vi/MT_UAMB8RLQ/hqdefault.jpg",
+      title: "Jimmy Butler Postgame Interview ",
+      videos: ["https://www.youtube.com/embed/8Vk72DzBljw"],
+      desc: "",
+    },
   ],
 };

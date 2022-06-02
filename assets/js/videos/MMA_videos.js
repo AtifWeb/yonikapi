@@ -1,16 +1,62 @@
 export const videos = {
-  title: "Recent View",
+  title: "UFC",
   link: "#",
   list: [
-    "https://www.youtube.com/embed/zMf3sF6CGSc",
-    "https://www.youtube.com/embed/7iVCIuk2aVE",
-    "https://www.youtube.com/embed/QAw2DbTVHqs",
-    "https://www.youtube.com/embed/VIS5WeyiK88",
-
-    "https://www.youtube.com/embed/Gp-khNHuWXo",
-    "https://www.youtube.com/embed/_wl2TNkEnwU",
-    "https://www.youtube.com/embed/PREQjLX6V6E",
-
-    "https://www.youtube.com/embed/5uUCl9VIXNw",
+    {
+      id: "UFC1",
+      poster: "https://i.ytimg.com/vi/4Zo6EUKndI0/hqdefault.jpg",
+      title: "Tony Ferguson DECLINES to appear",
+      videos: ["https://www.youtube.com/embed/yAyuxHAkByw"],
+      desc: "",
+    },
+    {
+      id: "UFC2",
+      poster: "https://i.ytimg.com/vi/7iVCIuk2aVE/hqdefault.jpg",
+      title: "The MMA Hour",
+      videos: ["https://www.youtube.com/embed/8FSrbPXGUpk"],
+      desc: "",
+    },
+    {
+      id: "UFC3",
+      poster: "https://i.ytimg.com/vi/QAw2DbTVHqs/hqdefault.jpg",
+      title: "10 MMA Narratives",
+      videos: ["https://www.youtube.com/embed/9jfJIXBOu2E"],
+      desc: "",
+    },
+    {
+      id: "UFC4",
+      poster: "https://i.ytimg.com/vi/4Zo6EUKndI0/hqdefault.jpg",
+      title: "The MMA Hour 2",
+      videos: ["https://www.youtube.com/embed/8Vk72DzBljw"],
+      desc: "",
+    },
+    {
+      id: "UFC5",
+      poster: "https://i.ytimg.com/vi/4Zo6EUKndI0/hqdefault.jpg",
+      title: "Tony Ferguson DECLINES to appear",
+      videos: ["https://www.youtube.com/embed/yAyuxHAkByw"],
+      desc: "",
+    },
+    {
+      id: "UFC6",
+      poster: "https://i.ytimg.com/vi/7iVCIuk2aVE/hqdefault.jpg",
+      title: "The MMA Hour",
+      videos: ["https://www.youtube.com/embed/8FSrbPXGUpk"],
+      desc: "",
+    },
+    {
+      id: "UFC7",
+      poster: "https://i.ytimg.com/vi/QAw2DbTVHqs/hqdefault.jpg",
+      title: "10 MMA Narratives",
+      videos: ["https://www.youtube.com/embed/9jfJIXBOu2E"],
+      desc: "",
+    },
+    {
+      id: "UFC8",
+      poster: "https://i.ytimg.com/vi/4Zo6EUKndI0/hqdefault.jpg",
+      title: "The MMA Hour 2",
+      videos: ["https://www.youtube.com/embed/8Vk72DzBljw"],
+      desc: "",
+    },
   ],
 };

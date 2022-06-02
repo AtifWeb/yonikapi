@@ -1,16 +1,62 @@
 export const videos = {
-  title: "Recent View",
+  title: "WWE",
   link: "#",
   list: [
-    "https://www.youtube.com/embed/Fm4RMw0AMLM",
-    "https://www.youtube.com/embed/1E1A44LgBxA",
-    "https://www.youtube.com/embed/4Zo6EUKndI0",
-    "https://www.youtube.com/embed/l333rXTv6d4",
-
-    "https://www.youtube.com/embed/QZzVe_GSyIU",
-    "https://www.youtube.com/embed/uts2j9Wd5V0",
-    "https://www.youtube.com/embed/y211zEcklAQ",
-
-    "https://www.youtube.com/embed/xpWBCHX9IFk",
+    {
+      id: "WWE1",
+      poster: "https://i.ytimg.com/vi/HLBJ69MoCSI/hqdefault.jpg",
+      title: "Stephanie McMahon leaves WWE",
+      videos: ["https://www.youtube.com/embed/yAyuxHAkByw"],
+      desc: "",
+    },
+    {
+      id: "WWE2",
+      poster: "https://i.ytimg.com/vi_webp/1E1A44LgBxA/sddefault.webp",
+      title: "AEW Most Extreme Moments of 2021",
+      videos: ["https://www.youtube.com/embed/8FSrbPXGUpk"],
+      desc: "",
+    },
+    {
+      id: "WWE3",
+      poster: "https://i.ytimg.com/vi_webp/1E1A44LgBxA/sddefault.webp",
+      title: "AEW Most Extreme Moments of 2021",
+      videos: ["https://www.youtube.com/embed/9jfJIXBOu2E"],
+      desc: "",
+    },
+    {
+      id: "WWE4",
+      poster: "https://i.ytimg.com/vi/HLBJ69MoCSI/hqdefault.jpg",
+      title: "Stephanie McMahon leaves WWE",
+      videos: ["https://www.youtube.com/embed/8Vk72DzBljw"],
+      desc: "",
+    },
+    {
+      id: "WWE5",
+      poster: "https://i.ytimg.com/vi/HLBJ69MoCSI/hqdefault.jpg",
+      title: "Stephanie McMahon leaves WWE",
+      videos: ["https://www.youtube.com/embed/yAyuxHAkByw"],
+      desc: "",
+    },
+    {
+      id: "WWE6",
+      poster: "https://i.ytimg.com/vi_webp/1E1A44LgBxA/sddefault.webp",
+      title: "AEW Most Extreme Moments of 2021",
+      videos: ["https://www.youtube.com/embed/8FSrbPXGUpk"],
+      desc: "",
+    },
+    {
+      id: "WWE7",
+      poster: "https://i.ytimg.com/vi_webp/1E1A44LgBxA/sddefault.webp",
+      title: "AEW Most Extreme Moments of 2021",
+      videos: ["https://www.youtube.com/embed/9jfJIXBOu2E"],
+      desc: "",
+    },
+    {
+      id: "WWE8",
+      poster: "https://i.ytimg.com/vi/HLBJ69MoCSI/hqdefault.jpg",
+      title: "Stephanie McMahon leaves WWE",
+      videos: ["https://www.youtube.com/embed/8Vk72DzBljw"],
+      desc: "",
+    },
   ],
 };
