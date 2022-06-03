@@ -40,8 +40,11 @@ window.addEventListener("load", (e) => {
 
   Ratings.forEach((EachRating) => {
     EachRating.addEventListener("click", (e) => {
-      console.log("working");
       let icon = e.target.querySelector("i");
+      let Data = window.sessionStorage.getItem("Data");
+
+      let JSONPARSE = JSON.parse(Data);
+      let JSONPARSE_ID = JSONPARSE["id"];
 
       let GolbalActive = e.target
         .closest(".rating_wrapper")

@@ -6,7 +6,7 @@ export const videos = {
       id: "Earuleage1",
       poster: "https://i.ytimg.com/vi/uIEXFWxfE7s/hqdefault.jpg",
       title: "FC Barcelona - Real Madrid 83-86",
-      videos: ["https://www.youtube.com/embed/yAyuxHAkByw"],
+      videos: ["https://www.youtube.com/embed/uqYwehckZLs"],
       desc: "",
     },
     {
