@@ -39,7 +39,7 @@ window.addEventListener("load", (e) => {
           dislikes = doc.data().dislikes;
 
           document.querySelector(".rating_wrapper > p").innerHTML = `(${
-            likes + dislikes
+            likes - dislikes
           })`;
 
           window.sessionStorage.setItem("likes", likes);

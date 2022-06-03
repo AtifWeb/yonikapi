@@ -22,7 +22,6 @@ const getData = (id) => {
 
 let VideosWrapper = document.querySelector(".body_content_area .left_side");
 let HTMLTEMPLATE = (heading, list, link, LikesObj) => {
-  console.log(LikesObj);
   return `
 <section class="video_cycle">
 <div class="heading_area">
@@ -37,7 +36,8 @@ let HTMLTEMPLATE = (heading, list, link, LikesObj) => {
 />
 <h1>${list[0].title} <span>(${
     LikesObj["LikesOne"].length > 0
-      ? LikesObj["LikesOne"][0]["data"]["likes"]
+      ? LikesObj["LikesOne"][0]["data"]["likes"] -
+        LikesObj["LikesOne"][0]["data"]["dislikes"]
       : 0
   }) likes this video)</span></h1>
 </a>
@@ -49,7 +49,8 @@ src=${list[1].poster}
 />
 <h1>${list[1].title}  <span>(${
     LikesObj["LikesTwo"].length > 0
-      ? LikesObj["LikesTwo"][0]["data"]["likes"]
+      ? LikesObj["LikesTwo"][0]["data"]["likes"] -
+        LikesObj["LikesTwo"][0]["data"]["dislikes"]
       : 0
   } likes this video)</span></h1>
 </a>
@@ -60,7 +61,8 @@ src=${list[2].poster}
 />
 <h1>${list[2].title} <span>(${
     LikesObj["LikesThree"].length > 0
-      ? LikesObj["LikesThree"][0]["data"]["likes"]
+      ? LikesObj["LikesThree"][0]["data"]["likes"] -
+        LikesObj["LikesThree"][0]["data"]["dislikes"]
       : 0
   } likes this video)</span></h1>
 </a>
@@ -72,7 +74,8 @@ src=${list[3].poster}
 <h1>
 ${list[3].title} <span>(${
     LikesObj["LikesFour"].length > 0
-      ? LikesObj["LikesFour"][0]["data"]["likes"]
+      ? LikesObj["LikesFour"][0]["data"]["likes"] -
+        LikesObj["LikesFour"][0]["data"]["dislikes"]
       : 0
   } likes this video)</span></span>
 </h1>

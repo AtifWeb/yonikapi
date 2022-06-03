@@ -7,7 +7,9 @@ let VideoTemplate = (list, newData) => {
   <a href="./view.html" id="${list.id}" class="image_wrapper">
   <img src=${list.poster} alt="" />
   <h1>${list.title} <span>(${
-    newData.length > 0 ? newData[0]["data"]["likes"] : 0
+    newData.length > 0
+      ? newData[0]["data"]["likes"] - newData[0]["data"]["dislikes"]
+      : 0
   } likes this video)</span></h1>
 </a>
     `;
