@@ -117,26 +117,33 @@ const GetData = (data) => {
       )
     );
   });
+
+  SetLocalStorageData();
 };
 // GetData();
 getData();
-document.querySelectorAll(".video_container a").forEach((EachAnchor) => {
-  EachAnchor.addEventListener("click", (e) => {
-    // e.preventDefault();
-    let id = e.target.id;
-    let data = [];
-    videos.forEach((EachObj) => {
-      let List = EachObj.list;
 
-      let filterValue = List.filter((EachFilterObj) => EachFilterObj.id == id);
-      if (filterValue.length > 0) {
-        data = filterValue;
+const SetLocalStorageData = (e) => {
+  document.querySelectorAll(".video_container a").forEach((EachAnchor) => {
+    EachAnchor.addEventListener("click", (e) => {
+      // e.preventDefault();
+      let id = e.target.id;
+      let data = [];
+      videos.forEach((EachObj) => {
+        let List = EachObj.list;
+
+        let filterValue = List.filter(
+          (EachFilterObj) => EachFilterObj.id == id
+        );
+        if (filterValue.length > 0) {
+          data = filterValue;
+        }
+      });
+
+      if (data.length > 0) {
+        let Injson = JSON.stringify(data[0]);
+        window.sessionStorage.setItem("Data", Injson);
       }
     });
-
-    if (data.length > 0) {
-      let Injson = JSON.stringify(data[0]);
-      window.sessionStorage.setItem("Data", Injson);
-    }
   });
-});
+};
