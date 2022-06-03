@@ -1,5 +1,11 @@
 .home_area {
   padding: 5rem 0rem;
+  padding-bottom: 3rem;
+}
+.home_area > h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+  font-weight: 800;
 }
 .heading_area {
   margin-bottom: 26px;
