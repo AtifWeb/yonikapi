@@ -1,4 +1,4 @@
-import { videos } from "./videos/earuleague_video.js";
+import { videos } from "./videos/ncaaf_video.js";
 
 let videos_area = document.querySelector(".videos_area");
 
