@@ -52,7 +52,7 @@ header .header_content nav a {
 header .header_content nav a {
   font-weight: 500;
 
-  padding: 0 14px;
+  padding: 0 8px;
   line-height: 48px;
   font-size: 14px;
   color: #000;
@@ -74,8 +74,14 @@ header .header_content nav a:hover {
   .common_width {
     width: 90%;
   }
+  header .header_content > a > img {
+    width: 150px;
+  }
+  header .header_content nav a {
+    padding: 0px 3px;
+  }
 }
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 1200px) {
   .burger_icon {
     display: block;
   }

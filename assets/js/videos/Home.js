@@ -1,39 +1,4 @@
-export const mainVideos = [
-  {
-    title: "Latest games",
-    link: "#",
-    list: [
-      {
-        id: "Latestgames1",
-        poster: "https://i.ytimg.com/vi/1aumBX3_AyA/hqdefault.jpg",
-        title: "Adidas Compitition",
-        videos: ["https://www.youtube.com/embed/yAyuxHAkByw"],
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus molestiae animi itaque perspiciatis mollitia repellendus illo maiores quasi? Similique temporibus dolorem atque autem esse dignissimos cupiditate officiis quis doloremque, pariatur dolor",
-      },
-      {
-        id: "Latestgames2",
-        poster: "https://i.ytimg.com/vi/7pGFn6XkOOQ/hqdefault.jpg",
-        title: "basket ball game",
-        videos: ["https://www.youtube.com/embed/8FSrbPXGUpk"],
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus molestiae animi itaque perspiciatis mollitia repellendus illo maiores quasi? Similique temporibus dolorem atque autem esse dignissimos cupiditate officiis quis doloremque, pariatur dolor",
-      },
-      {
-        id: "Latestgames3",
-        poster: "https://i.ytimg.com/vi/-mIIzGgYsG0/maxresdefault.jpg",
-        title: "Ronaldo Game",
-        videos: ["https://www.youtube.com/embed/9jfJIXBOu2E"],
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus molestiae animi itaque perspiciatis mollitia repellendus illo maiores quasi? Similique temporibus dolorem atque autem esse dignissimos cupiditate officiis quis doloremque, pariatur dolor",
-      },
-      {
-        id: "Latestgames4",
-        poster: "https://i.ytimg.com/vi/GxxIVqKpG2Y/hqdefault.jpg",
-        title: "Top 5 Plays of semi final",
-        videos: ["https://www.youtube.com/embed/8Vk72DzBljw"],
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus molestiae animi itaque perspiciatis mollitia repellendus illo maiores quasi? Similique temporibus dolorem atque autem esse dignissimos cupiditate officiis quis doloremque, pariatur dolor",
-      },
-    ],
-  },
-];
+export const mainVideos = [];
 export const videos = [
   {
     title: "Latest games",
@@ -69,40 +34,40 @@ export const videos = [
       },
     ],
   },
-  {
-    title: "Recent View",
-    link: "#",
-    list: [
-      {
-        id: "NHL1",
-        poster: "https://i.ytimg.com/vi_webp/Q5TSjrkQDnw/maxresdefault.webp",
-        title: "NHL Plays Worth Seeing Again 2022",
-        videos: ["https://www.youtube.com/embed/yAyuxHAkByw"],
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus molestiae animi itaque perspiciatis mollitia repellendus illo maiores quasi? Similique temporibus dolorem atque autem esse dignissimos cupiditate officiis quis doloremque, pariatur dolor",
-      },
-      {
-        id: "f12",
-        poster: "https://i.ytimg.com/vi/8FSrbPXGUpk/maxresdefault.jpg",
-        title: "Why Frari F1?",
-        videos: ["https://www.youtube.com/embed/8FSrbPXGUpk"],
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus molestiae animi itaque perspiciatis mollitia repellendus illo maiores quasi? Similique temporibus dolorem atque autem esse dignissimos cupiditate officiis quis doloremque, pariatur dolor",
-      },
-      {
-        id: "Ncaab1",
-        poster: "https://i.ytimg.com/vi/yb-LlZlH9Jo/hqdefault.jpg",
-        title: "Kansas vs. Villanova - Final Four NCAA",
-        videos: ["https://www.youtube.com/embed/yAyuxHAkByw"],
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus molestiae animi itaque perspiciatis mollitia repellendus illo maiores quasi? Similique temporibus dolorem atque autem esse dignissimos cupiditate officiis quis doloremque, pariatur dolor",
-      },
-      {
-        id: "f14",
-        poster: "https://i.ytimg.com/vi/8Vk72DzBljw/maxresdefault.jpg",
-        title: "F1 Boses",
-        videos: ["https://www.youtube.com/embed/8Vk72DzBljw"],
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus molestiae animi itaque perspiciatis mollitia repellendus illo maiores quasi? Similique temporibus dolorem atque autem esse dignissimos cupiditate officiis quis doloremque, pariatur dolor",
-      },
-    ],
-  },
+  // {
+  //   title: "Recent View",
+  //   link: "#",
+  //   list: [
+  //     {
+  //       id: "NHL1",
+  //       poster: "https://i.ytimg.com/vi_webp/Q5TSjrkQDnw/maxresdefault.webp",
+  //       title: "NHL Plays Worth Seeing Again 2022",
+  //       videos: ["https://www.youtube.com/embed/yAyuxHAkByw"],
+  //       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus molestiae animi itaque perspiciatis mollitia repellendus illo maiores quasi? Similique temporibus dolorem atque autem esse dignissimos cupiditate officiis quis doloremque, pariatur dolor",
+  //     },
+  //     {
+  //       id: "f12",
+  //       poster: "https://i.ytimg.com/vi/8FSrbPXGUpk/maxresdefault.jpg",
+  //       title: "Why Frari F1?",
+  //       videos: ["https://www.youtube.com/embed/8FSrbPXGUpk"],
+  //       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus molestiae animi itaque perspiciatis mollitia repellendus illo maiores quasi? Similique temporibus dolorem atque autem esse dignissimos cupiditate officiis quis doloremque, pariatur dolor",
+  //     },
+  //     {
+  //       id: "Ncaab1",
+  //       poster: "https://i.ytimg.com/vi/yb-LlZlH9Jo/hqdefault.jpg",
+  //       title: "Kansas vs. Villanova - Final Four NCAA",
+  //       videos: ["https://www.youtube.com/embed/yAyuxHAkByw"],
+  //       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus molestiae animi itaque perspiciatis mollitia repellendus illo maiores quasi? Similique temporibus dolorem atque autem esse dignissimos cupiditate officiis quis doloremque, pariatur dolor",
+  //     },
+  //     {
+  //       id: "f14",
+  //       poster: "https://i.ytimg.com/vi/8Vk72DzBljw/maxresdefault.jpg",
+  //       title: "F1 Boses",
+  //       videos: ["https://www.youtube.com/embed/8Vk72DzBljw"],
+  //       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus molestiae animi itaque perspiciatis mollitia repellendus illo maiores quasi? Similique temporibus dolorem atque autem esse dignissimos cupiditate officiis quis doloremque, pariatur dolor",
+  //     },
+  //   ],
+  // },
 
   {
     title: "f1",
@@ -208,7 +173,6 @@ export const videos = [
       },
     ],
   },
-
   {
     title: "Nba",
     link: "#",
@@ -424,9 +388,8 @@ export const videos = [
       },
     ],
   },
-
   {
-    title: "Earuleage",
+    title: "Euroleague",
     link: "#",
     list: [
       {
@@ -494,7 +457,6 @@ export const videos = [
       },
     ],
   },
-
   {
     title: "Champions League",
     link: "#",

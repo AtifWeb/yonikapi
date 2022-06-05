@@ -1,0 +1,62 @@
+export const videos = {
+  title: "Others",
+  link: "#",
+  list: [
+    {
+      id: "Others1",
+      poster: "https://i.ytimg.com/vi/TcOLV7HnWJ4/sddefault.jpg",
+      title: "Best Of MOTORSPORT 2020 | Terrifying C",
+      videos: ["https://www.youtube.com/embed/yAyuxHAkByw"],
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus molestiae animi itaque perspiciatis mollitia repellendus illo maiores quasi? Similique temporibus dolorem atque autem esse dignissimos cupiditate officiis quis doloremque, pariatur dolor",
+    },
+    {
+      id: "Others2",
+      poster: "https://i.ytimg.com/vi_webp/axAv6JArTME/maxresdefault.webp",
+      title: "Momentum KILLING Tackles in Rugby!",
+      videos: ["https://www.youtube.com/embed/8FSrbPXGUpk"],
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus molestiae animi itaque perspiciatis mollitia repellendus illo maiores quasi? Similique temporibus dolorem atque autem esse dignissimos cupiditate officiis quis doloremque, pariatur dolor",
+    },
+    {
+      id: "Others3",
+      poster: "https://i.ytimg.com/vi/UvUU7iQIGEc/hqdefault.jpg",
+      title: "CFL 2021 Western Final Recap: Saskatc",
+      videos: ["https://www.youtube.com/embed/9jfJIXBOu2E"],
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus molestiae animi itaque perspiciatis mollitia repellendus illo maiores quasi? Similique temporibus dolorem atque autem esse dignissimos cupiditate officiis quis doloremque, pariatur dolor",
+    },
+    {
+      id: "Others4",
+      poster: "https://i.ytimg.com/vi/9OrzEtiQ1Ow/maxresdefault.jpg",
+      title: "Stan Wawrinka vs Corentin Moutet - Rou",
+      videos: ["https://www.youtube.com/embed/8Vk72DzBljw"],
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus molestiae animi itaque perspiciatis mollitia repellendus illo maiores quasi? Similique temporibus dolorem atque autem esse dignissimos cupiditate officiis quis doloremque, pariatur dolor",
+    },
+    {
+      id: "Others5",
+      poster: "https://i.ytimg.com/vi/TcOLV7HnWJ4/sddefault.jpg",
+      title: "Best Of MOTORSPORT 2020 | Terrifying C",
+      videos: ["https://www.youtube.com/embed/yAyuxHAkByw"],
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus molestiae animi itaque perspiciatis mollitia repellendus illo maiores quasi? Similique temporibus dolorem atque autem esse dignissimos cupiditate officiis quis doloremque, pariatur dolor",
+    },
+    {
+      id: "Others6",
+      poster: "https://i.ytimg.com/vi_webp/axAv6JArTME/maxresdefault.webp",
+      title: "Momentum KILLING Tackles in Rugby!",
+      videos: ["https://www.youtube.com/embed/8FSrbPXGUpk"],
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus molestiae animi itaque perspiciatis mollitia repellendus illo maiores quasi? Similique temporibus dolorem atque autem esse dignissimos cupiditate officiis quis doloremque, pariatur dolor",
+    },
+    {
+      id: "Others7",
+      poster: "https://i.ytimg.com/vi/UvUU7iQIGEc/hqdefault.jpg",
+      title: "CFL 2021 Western Final Recap: Saskatc",
+      videos: ["https://www.youtube.com/embed/9jfJIXBOu2E"],
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus molestiae animi itaque perspiciatis mollitia repellendus illo maiores quasi? Similique temporibus dolorem atque autem esse dignissimos cupiditate officiis quis doloremque, pariatur dolor",
+    },
+    {
+      id: "Others8",
+      poster: "https://i.ytimg.com/vi/9OrzEtiQ1Ow/maxresdefault.jpg",
+      title: "Stan Wawrinka vs Corentin Moutet - Rou",
+      videos: ["https://www.youtube.com/embed/8Vk72DzBljw"],
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus molestiae animi itaque perspiciatis mollitia repellendus illo maiores quasi? Similique temporibus dolorem atque autem esse dignissimos cupiditate officiis quis doloremque, pariatur dolor",
+    },
+  ],
+};

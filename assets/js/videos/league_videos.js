@@ -1,0 +1,62 @@
+export const videos = {
+  title: "Champions League",
+  link: "#",
+  list: [
+    {
+      id: "Champions1",
+      poster: "https://i.ytimg.com/vi_webp/n5hqFG6taoY/maxresdefault.webp",
+      title: "HIGHLIGHTS: Liverpoo",
+      videos: ["https://www.youtube.com/embed/yAyuxHAkByw"],
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus molestiae animi itaque perspiciatis mollitia repellendus illo maiores quasi? Similique temporibus dolorem atque autem esse dignissimos cupiditate officiis quis doloremque, pariatur dolor",
+    },
+    {
+      id: "Champions2",
+      poster: "https://i.ytimg.com/vi_webp/IK6ky_jbBqI/maxresdefault.webp",
+      title: "LIVERPOOL WIN THE CUP",
+      videos: ["https://www.youtube.com/embed/8FSrbPXGUpk"],
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus molestiae animi itaque perspiciatis mollitia repellendus illo maiores quasi? Similique temporibus dolorem atque autem esse dignissimos cupiditate officiis quis doloremque, pariatur dolor",
+    },
+    {
+      id: "Champions3",
+      poster: "https://i.ytimg.com/vi/XCyih2XpqCY/hqdefault.jpg",
+      title: "INSIDE WEMBLEY: Liverpool vs Chelsea",
+      videos: ["https://www.youtube.com/embed/9jfJIXBOu2E"],
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus molestiae animi itaque perspiciatis mollitia repellendus illo maiores quasi? Similique temporibus dolorem atque autem esse dignissimos cupiditate officiis quis doloremque, pariatur dolor",
+    },
+    {
+      id: "Champions4",
+      poster: "https://i.ytimg.com/vi_webp/MBO0AiAD0DQ/hqdefault.webp",
+      title: "HIGHLIGHTS: Aston Villa 1-2 Liverpoo",
+      videos: ["https://www.youtube.com/embed/8Vk72DzBljw"],
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus molestiae animi itaque perspiciatis mollitia repellendus illo maiores quasi? Similique temporibus dolorem atque autem esse dignissimos cupiditate officiis quis doloremque, pariatur dolor",
+    },
+    {
+      id: "Champions5",
+      poster: "https://i.ytimg.com/vi_webp/n5hqFG6taoY/maxresdefault.webp",
+      title: "HIGHLIGHTS: Liverpoo",
+      videos: ["https://www.youtube.com/embed/yAyuxHAkByw"],
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus molestiae animi itaque perspiciatis mollitia repellendus illo maiores quasi? Similique temporibus dolorem atque autem esse dignissimos cupiditate officiis quis doloremque, pariatur dolor",
+    },
+    {
+      id: "Champions6",
+      poster: "https://i.ytimg.com/vi_webp/IK6ky_jbBqI/maxresdefault.webp",
+      title: "LIVERPOOL WIN THE CUP",
+      videos: ["https://www.youtube.com/embed/8FSrbPXGUpk"],
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus molestiae animi itaque perspiciatis mollitia repellendus illo maiores quasi? Similique temporibus dolorem atque autem esse dignissimos cupiditate officiis quis doloremque, pariatur dolor",
+    },
+    {
+      id: "Champions7",
+      poster: "https://i.ytimg.com/vi/XCyih2XpqCY/hqdefault.jpg",
+      title: "INSIDE WEMBLEY: Liverpool vs Chelsea",
+      videos: ["https://www.youtube.com/embed/9jfJIXBOu2E"],
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus molestiae animi itaque perspiciatis mollitia repellendus illo maiores quasi? Similique temporibus dolorem atque autem esse dignissimos cupiditate officiis quis doloremque, pariatur dolor",
+    },
+    {
+      id: "Champions8",
+      poster: "https://i.ytimg.com/vi_webp/MBO0AiAD0DQ/hqdefault.webp",
+      title: "HIGHLIGHTS: Aston Villa 1-2 Liverpoo",
+      videos: ["https://www.youtube.com/embed/8Vk72DzBljw"],
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus molestiae animi itaque perspiciatis mollitia repellendus illo maiores quasi? Similique temporibus dolorem atque autem esse dignissimos cupiditate officiis quis doloremque, pariatur dolor",
+    },
+  ],
+};
